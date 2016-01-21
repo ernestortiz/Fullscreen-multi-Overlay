@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>Fullscreen (Multi)Overlay Effects</title>
+			<meta name="description" content="Fullscreen Overlay Styles &amp; Effects" />
+		<meta name="keywords" content="fullscreen overlay, overlay menu, inspiration, styles, effect, css" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link rel="stylesheet" type="text/css" href="css/style.css" />
+  		<script src="js/modernizr.custom.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<!-- Top Navigation -->
+			<div class="codrops-top clearfix">
+				&nbsp;&nbsp;&nbsp;Go to the original&nbsp;&nbsp;&nbsp;<a class="codrops-icon codrops-icon-prev" href="http://tympanus.net/codrops/2014/02/06/fullscreen-overlay-effects/"><span>Fullscreen Overlay Effects</span></a> 
+				<span class="right"></span>
+			</div>
+			<header class="codrops-header">
+				<h1>Fullscreen (multi)Overlay Effects</h1>	
+			</header>
+			<section>
+				<p>The Fullscreen Overlay Effects' by Mary Lou at CODROPS is really simple and creative and useful and awesome. Recently, some people asked how to set multiple links and different overlays in the same page, so I tried and finally got it. I hope it can be helpfull!</p>
+				<p><button id="trigger-overlay" class="trigger-overlay" data-overlay="layer1" type="button">BUTTON</button></p>
+				<p><button class="trigger-overlay" data-overlay="layer2" type="button">ANOTHER BUTTON</button></p>
+				<p><a href="#" class="trigger-overlay" data-overlay="layer3">AND A LINK</a></p>
+			</section>
+		</div><!-- /container -->
+		<!-- open/close -->
+		<div class="overlay overlay-hugeinc" id="layer1">
+			<button type="button" class="overlay-close">Close</button>
+			<nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Work</a></li>
+					<li><a href="#">Clients</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+
+		<div class="overlay overlay-hugeinc" id="layer2">
+			<button type="button" class="overlay-close">Close</button>
+			<nav>
+				<ul>
+					<li><a href="#">Hello!</a></li>
+					<li><a class="codrops-icon codrops-icon-drop"> I'm the second layer...</a></li>
+				</ul>
+			</nav>
+		</div>
+		
+		<div class="overlay overlay-hugeinc" id="layer3">
+			<button type="button" class="overlay-close">Close</button>
+			<nav>
+				<ul>
+					<li><a href="#">PLEASE</a></li>
+					<li style="color:white!important";>Download the <a href="https://github.com/ernestortiz/" target="_blank">files at github</a> and notice the changes<br/>in the javascript and the html file...</li>
+				</ul>
+			</nav>
+		</div>
+		
+		<script src="js/classie.js"></script>
+		<script src="js/multiverse.js"></script>
+	</body>
+</html>
