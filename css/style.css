@@ -3,11 +3,11 @@
 	font-weight: normal;
 	font-style: normal;
 	font-family: 'codropsicons';
-	src:url('../fonts/codropsicons/codropsicons.eot');
-	src:url('../fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/codropsicons/codropsicons.woff') format('woff'),
-		url('../fonts/codropsicons/codropsicons.ttf') format('truetype'),
-		url('../fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
+	src:url('http://tympanus.net/Development/FullscreenOverlayStyles/fonts/codropsicons/codropsicons.eot');
+	src:url('http://tympanus.net/Development/FullscreenOverlayStyles/fonts/codropsicons/codropsicons.eot?#iefix') format('embedded-opentype'),
+		url('http://tympanus.net/Development/FullscreenOverlayStyles/fonts/codropsicons/codropsicons.woff') format('woff'),
+		url('http://tympanus.net/Development/FullscreenOverlayStyles/fonts/codropsicons/codropsicons.ttf') format('truetype'),
+		url('http://tympanus.net/Development/FullscreenOverlayStyles/fonts/codropsicons/codropsicons.svg#codropsicons') format('svg');
 }
 
 *, *:after, *:before { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
@@ -182,7 +182,7 @@ section button {
 	top: 20px;
 	overflow: hidden;
 	border: none;
-	background: url(../img/cross.png) no-repeat center center;
+	background: url(http://tympanus.net/Development/FullscreenOverlayStyles/img/cross.png) no-repeat center center;
 	text-indent: 200%;
 	color: transparent;
 	outline: none;
